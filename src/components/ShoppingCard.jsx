@@ -1,8 +1,10 @@
 import React from 'react';
 
-const ShoppingCard = () => {
+const ShoppingCard = ({product}) => {
   return (
-   <div>shoosjlf</div>
+   <div key={product.id}>
+    <h1>{product.title}</h1>
+    </div>
   );
 };
 
